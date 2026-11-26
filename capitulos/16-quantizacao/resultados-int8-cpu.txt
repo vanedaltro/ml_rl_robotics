@@ -1,0 +1,4 @@
+Torch: 2.9.1 | backend: qnnpack
+Tipo de peso: torch.qint8
+Serialização do state_dict: 135901 → 37325 bytes
+Erro absoluto máximo nesse lote: 0.00228804349899292

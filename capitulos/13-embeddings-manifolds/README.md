@@ -17,3 +17,5 @@ python figuras.py
 - `resultados.txt`: saída da execução de referência em PyTorch 2.9.1, CPU e precisão dupla.
 
 Os dados são sintéticos, sem download de bases ou pesos. No exemplo da espiral, a ordem dos pontos é conhecida pelo simulador; o arco aproximado não é uma distância geodésica estimada em dados desconhecidos. A MMD ao quadrado usa a estatística V com largura 1.
+
+[Artigo no LinkedIn](https://www.linkedin.com/pulse/antes-do-umap-embeddings-manifolds-e-geometria-dos-santos-daltro-pieve/) · [Post ilustrado](https://www.linkedin.com/feed/update/urn:li:activity:7531705196167467008/)

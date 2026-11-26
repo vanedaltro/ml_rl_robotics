@@ -1,0 +1,186 @@
+{
+  "seed": 20261126,
+  "torch": "2.8.0",
+  "device": "cpu",
+  "vocab": 46,
+  "parameters": 61486,
+  "split_documents": [
+    1075,
+    230,
+    231
+  ],
+  "metrics": {
+    "general_pretrain": {
+      "nll": 1.4925131265219156,
+      "ppl": 4.448260525092873,
+      "tokens": 1155
+    },
+    "general_after_finetune": {
+      "nll": 4.160101926068723,
+      "ppl": 64.07805349118073,
+      "tokens": 1155
+    },
+    "domain_pretrain": {
+      "nll": 5.83454304484578,
+      "ppl": 341.9084615144623,
+      "tokens": 1155
+    },
+    "domain_finetune": {
+      "nll": 1.5063267827550053,
+      "ppl": 4.510133629853953,
+      "tokens": 1155
+    },
+    "domain_scratch_150": {
+      "nll": 1.5208758201433983,
+      "ppl": 4.576231396167913,
+      "tokens": 1155
+    },
+    "domain_unigram": {
+      "nll": 3.0845585061001977,
+      "ppl": 21.85781461971578
+    }
+  },
+  "stages": {
+    "pretrain": {
+      "best_step": 150,
+      "trace": [
+        {
+          "step": 25,
+          "train_batch_nll": 1.5906985998153687,
+          "val_nll": 1.5826419200067934
+        },
+        {
+          "step": 50,
+          "train_batch_nll": 1.5050723552703857,
+          "val_nll": 1.5200883152173914
+        },
+        {
+          "step": 75,
+          "train_batch_nll": 1.4950109720230103,
+          "val_nll": 1.5005525008491847
+        },
+        {
+          "step": 100,
+          "train_batch_nll": 1.4964598417282104,
+          "val_nll": 1.5065192446501359
+        },
+        {
+          "step": 125,
+          "train_batch_nll": 1.4758738279342651,
+          "val_nll": 1.4984994374150815
+        },
+        {
+          "step": 150,
+          "train_batch_nll": 1.480888843536377,
+          "val_nll": 1.4965645698879075
+        },
+        {
+          "step": 175,
+          "train_batch_nll": 1.4746921062469482,
+          "val_nll": 1.5041187584918478
+        },
+        {
+          "step": 200,
+          "train_batch_nll": 1.4863741397857666,
+          "val_nll": 1.5078445567255434
+        },
+        {
+          "step": 225,
+          "train_batch_nll": 1.4734985828399658,
+          "val_nll": 1.507129490064538
+        },
+        {
+          "step": 250,
+          "train_batch_nll": 1.4796735048294067,
+          "val_nll": 1.5071337359884511
+        },
+        {
+          "step": 275,
+          "train_batch_nll": 1.473686933517456,
+          "val_nll": 1.5086246390964675
+        },
+        {
+          "step": 300,
+          "train_batch_nll": 1.4729959964752197,
+          "val_nll": 1.4994871985394023
+        }
+      ]
+    },
+    "finetune": {
+      "best_step": 125,
+      "trace": [
+        {
+          "step": 25,
+          "train_batch_nll": 2.302191734313965,
+          "val_nll": 2.2324834408967393
+        },
+        {
+          "step": 50,
+          "train_batch_nll": 1.6262098550796509,
+          "val_nll": 1.625359470533288
+        },
+        {
+          "step": 75,
+          "train_batch_nll": 1.5368471145629883,
+          "val_nll": 1.5344759999150814
+        },
+        {
+          "step": 100,
+          "train_batch_nll": 1.509414792060852,
+          "val_nll": 1.5158003566576086
+        },
+        {
+          "step": 125,
+          "train_batch_nll": 1.493105173110962,
+          "val_nll": 1.5004538892663044
+        },
+        {
+          "step": 150,
+          "train_batch_nll": 1.49667489528656,
+          "val_nll": 1.5020785389775815
+        }
+      ]
+    },
+    "scratch_domain": {
+      "best_step": 150,
+      "trace": [
+        {
+          "step": 25,
+          "train_batch_nll": 2.078150987625122,
+          "val_nll": 2.0636605171535325
+        },
+        {
+          "step": 50,
+          "train_batch_nll": 1.6715242862701416,
+          "val_nll": 1.679457423997962
+        },
+        {
+          "step": 75,
+          "train_batch_nll": 1.570690393447876,
+          "val_nll": 1.5764705226732336
+        },
+        {
+          "step": 100,
+          "train_batch_nll": 1.5378246307373047,
+          "val_nll": 1.545953369140625
+        },
+        {
+          "step": 125,
+          "train_batch_nll": 1.5113595724105835,
+          "val_nll": 1.522769775390625
+        },
+        {
+          "step": 150,
+          "train_batch_nll": 1.5050764083862305,
+          "val_nll": 1.5183066724694294
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 6.120427125,
+  "samples": {
+    "greedy": "<bos> ana testa sensor bancada <eos>",
+    "temperature_0.7": "<bos> ana testa circuito laboratorio <eos>",
+    "temperature_1.2": "<bos> ana testa circuito laboratorio <eos>"
+  }
+}

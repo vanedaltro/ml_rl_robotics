@@ -1,0 +1,80 @@
+[
+  {
+    "protocol": "linhas",
+    "test_episode_seen_pct": 100.0,
+    "test_machine_seen_pct": 100.0,
+    "test_overlapping_window_pct": 100.0,
+    "mlp": {
+      "accuracy_pct": {
+        "mean": 100.0,
+        "sample_sd": 0.0
+      },
+      "balanced_accuracy_pct": {
+        "mean": 100.0,
+        "sample_sd": 0.0
+      }
+    },
+    "majority": {
+      "accuracy_pct": {
+        "mean": 50.17361111111111,
+        "sample_sd": 1.1384441882468779
+      },
+      "balanced_accuracy_pct": {
+        "mean": 50.0,
+        "sample_sd": 0.0
+      }
+    }
+  },
+  {
+    "protocol": "episodios",
+    "test_episode_seen_pct": 0.0,
+    "test_machine_seen_pct": 100.0,
+    "test_overlapping_window_pct": 0.0,
+    "mlp": {
+      "accuracy_pct": {
+        "mean": 67.99768518518519,
+        "sample_sd": 2.3634928074840356
+      },
+      "balanced_accuracy_pct": {
+        "mean": 68.3206569664903,
+        "sample_sd": 2.025803970142218
+      }
+    },
+    "majority": {
+      "accuracy_pct": {
+        "mean": 54.861111111111114,
+        "sample_sd": 4.336804165554444
+      },
+      "balanced_accuracy_pct": {
+        "mean": 50.0,
+        "sample_sd": 0.0
+      }
+    }
+  },
+  {
+    "protocol": "maquinas",
+    "test_episode_seen_pct": 0.0,
+    "test_machine_seen_pct": 0.0,
+    "test_overlapping_window_pct": 0.0,
+    "mlp": {
+      "accuracy_pct": {
+        "mean": 58.10185185185185,
+        "sample_sd": 6.499025528410397
+      },
+      "balanced_accuracy_pct": {
+        "mean": 58.66175254220795,
+        "sample_sd": 4.363130558018889
+      }
+    },
+    "majority": {
+      "accuracy_pct": {
+        "mean": 47.916666666666664,
+        "sample_sd": 10.82531754730548
+      },
+      "balanced_accuracy_pct": {
+        "mean": 50.0,
+        "sample_sd": 0.0
+      }
+    }
+  }
+]

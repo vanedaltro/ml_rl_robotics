@@ -38,5 +38,7 @@ No PowerShell, ative o ambiente com `.venv\Scripts\Activate.ps1`. Os exemplos cu
 | 16 | [Quantização em PyTorch: INT8, INT4 e pesos ternários](capitulos/16-quantizacao/) | [LinkedIn](https://www.linkedin.com/pulse/quantiza%25C3%25A7%25C3%25A3o-na-pr%25C3%25A1tica-do-mlp-aos-llms-com-pesos-em-santos-daltro-0iuqe/) |
 | 17 | [Pesos ternários estritos e com escala](capitulos/17-pesos-ternarios/) | [LinkedIn](https://www.linkedin.com/pulse/e-se-cada-peso-s%25C3%25B3-pudesse-ser-1-0-ou-um-laborat%25C3%25B3rio-em-santos-daltro-btsje/) |
 | 18 | [Mixture of Experts em PyTorch](capitulos/18-mixture-of-experts/) | [LinkedIn](https://www.linkedin.com/pulse/mixture-experts-na-pr%25C3%25A1tica-um-transformer-que-escolhe-santos-daltro-o1n3e/) |
+| 19 | [Avaliação de modelos sem vazamento](capitulos/19-avaliacao-sem-vazamento/) | A publicar |
+| 21 | [Da previsão à decisão na robótica](capitulos/21-previsao-a-decisao/) | A publicar |
 
 Resultados de laboratórios sintéticos e tempos de execução dependem da configuração e não são métricas de produção. O repositório não inclui bases externas nem pesos. Veja a [licença MIT](LICENSE) para o código; datasets de terceiros têm condições próprias.

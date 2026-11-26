@@ -1,0 +1,10 @@
+test_fit_stats_from_training_rows_only (test_lab_avaliacao.LabTests.test_fit_stats_from_training_rows_only) ... ok
+test_groups_disjoint_and_same_sample_count (test_lab_avaliacao.LabTests.test_groups_disjoint_and_same_sample_count) ... ok
+test_metrics_for_majority_and_single_class_group (test_lab_avaliacao.LabTests.test_metrics_for_majority_and_single_class_group) ... ok
+test_reproducible_and_shapes (test_lab_avaliacao.LabTests.test_reproducible_and_shapes) ... ok
+test_row_split_has_overlapping_raw_windows_in_same_episode (test_lab_avaliacao.LabTests.test_row_split_has_overlapping_raw_windows_in_same_episode) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.033s
+
+OK

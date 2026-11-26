@@ -1,0 +1,2 @@
+Estrito: [0.0, 0.0] MSE: 0.125
+Com escala: [0.25, -0.25] MSE: 0.0

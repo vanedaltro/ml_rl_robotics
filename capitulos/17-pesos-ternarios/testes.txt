@@ -1,0 +1,10 @@
+test_balanced_reproducible_dataset (test_lab_ternario.TestTernary.test_balanced_reproducible_dataset) ... ok
+test_exact_strict_forward_and_surrogate_gradient (test_lab_ternario.TestTernary.test_exact_strict_forward_and_surrogate_gradient) ... ok
+test_same_master_initialization_and_all_projection_weights_ternary (test_lab_ternario.TestTernary.test_same_master_initialization_and_all_projection_weights_ternary) ... ok
+test_scaled_codes_share_nonzero_magnitude_per_row (test_lab_ternario.TestTernary.test_scaled_codes_share_nonzero_magnitude_per_row) ... ok
+test_zero_rows_do_not_produce_nans (test_lab_ternario.TestTernary.test_zero_rows_do_not_produce_nans) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.020s
+
+OK

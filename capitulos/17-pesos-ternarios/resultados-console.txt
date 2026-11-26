@@ -1,0 +1,27 @@
+mlp          fp32   seed= 7 accuracy= 87.50%
+mlp          fp32   seed=23 accuracy= 86.91%
+mlp          fp32   seed=42 accuracy= 85.94%
+mlp          strict seed= 7 accuracy= 33.20%
+mlp          strict seed=23 accuracy= 64.45%
+mlp          strict seed=42 accuracy= 36.91%
+mlp          scaled seed= 7 accuracy= 84.96%
+mlp          scaled seed=23 accuracy= 84.57%
+mlp          scaled seed=42 accuracy= 83.01%
+cnn          fp32   seed= 7 accuracy= 96.48%
+cnn          fp32   seed=23 accuracy= 94.34%
+cnn          fp32   seed=42 accuracy= 94.92%
+cnn          strict seed= 7 accuracy= 27.34%
+cnn          strict seed=23 accuracy= 24.22%
+cnn          strict seed=42 accuracy= 25.00%
+cnn          scaled seed= 7 accuracy= 93.95%
+cnn          scaled seed=23 accuracy= 89.65%
+cnn          scaled seed=42 accuracy= 86.52%
+transformer  fp32   seed= 7 accuracy= 68.36%
+transformer  fp32   seed=23 accuracy= 68.36%
+transformer  fp32   seed=42 accuracy= 66.02%
+transformer  strict seed= 7 accuracy= 27.54%
+transformer  strict seed=23 accuracy= 30.66%
+transformer  strict seed=42 accuracy= 29.30%
+transformer  scaled seed= 7 accuracy= 53.32%
+transformer  scaled seed=23 accuracy= 57.81%
+transformer  scaled seed=42 accuracy= 57.81%

@@ -1,0 +1,25 @@
+{
+  "torch": "2.15.0+cpu",
+  "torchao": "0.18.0+cpu",
+  "config": "Int8WeightOnlyConfig",
+  "model_seed": 7,
+  "fp32": {
+    "accuracy_pct": 87.5,
+    "cross_entropy": 0.36804407835006714,
+    "mean_abs_logit": 2.9136171340942383
+  },
+  "int8": {
+    "accuracy_pct": 87.5,
+    "cross_entropy": 0.3681662380695343,
+    "mean_abs_logit": 2.9158692359924316
+  },
+  "max_abs_logit_error": 0.04966282844543457,
+  "state_dict_bytes_fp32": 76385,
+  "state_dict_bytes_int8": 22985,
+  "weight_type": "Int8Tensor",
+  "underlying_qdata_dtype": "torch.int8",
+  "scale_shape_first": [
+    64,
+    1
+  ]
+}

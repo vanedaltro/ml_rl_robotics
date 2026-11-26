@@ -4,6 +4,8 @@ O laboratório compara MLP, CNN e um Transformer de imagens sobre a mesma tarefa
 
 ![Resultados do laboratório de quantização de pesos em CPU para as três arquiteturas.](figuras/03-resultados.png)
 
+[Artigo no LinkedIn](https://www.linkedin.com/pulse/quantiza%25C3%25A7%25C3%25A3o-na-pr%25C3%25A1tica-do-mlp-aos-llms-com-pesos-em-santos-daltro-0iuqe/) · [Post de divulgação](https://www.linkedin.com/feed/update/urn:li:activity:7531735862972276737/)
+
 ## Reproduza em CPU
 
 ```bash

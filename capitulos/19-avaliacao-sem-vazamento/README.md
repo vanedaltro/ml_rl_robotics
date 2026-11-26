@@ -2,6 +2,8 @@
 
 Laboratório PyTorch com dados sintéticos, 24 máquinas, 192 episódios e 2.304 janelas de sensores. O mesmo MLP é avaliado por janelas, episódios ou máquinas, com normalização ajustada só no treino e baseline da classe majoritária.
 
+[Artigo no LinkedIn](https://www.linkedin.com/pulse/avalia%25C3%25A7%25C3%25A3o-sem-vazamento-por-que-100-teste-pode-n%25C3%25A3o-em-santos-daltro-ww4je/) · [Post de divulgação](https://www.linkedin.com/feed/update/urn:li:activity:7531748601060851712/)
+
 ```bash
 python -m pip install torch
 python -m unittest -v

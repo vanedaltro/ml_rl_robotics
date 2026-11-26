@@ -33,5 +33,6 @@ No PowerShell, ative o ambiente com `.venv\Scripts\Activate.ps1`. Os exemplos cu
 | 11 | [Transformer original e as três famílias](capitulos/11-transformers/) | [LinkedIn](https://www.linkedin.com/pulse/transformers-por-dentro-do-paper-ao-primeiro-modelo-em-santos-daltro-enfse/) |
 | 12 | [Vision Transformer em CPU](capitulos/12-vision-transformers/) | [LinkedIn](https://www.linkedin.com/pulse/vision-transformers-na-pr%C3%A1tica-um-vit-do-zero-em-santos-daltro-bvvve/) |
 | 13 | [Embeddings, variedades e distâncias](capitulos/13-embeddings-manifolds/) | [LinkedIn](https://www.linkedin.com/pulse/antes-do-umap-embeddings-manifolds-e-geometria-dos-santos-daltro-pieve/) |
+| 14 | [PCA, UMAP, PaCMAP e TriMap](capitulos/14-pca-umap-pacmap-trimap/) | Em publicação |
 
 Resultados de laboratórios sintéticos e tempos de execução dependem da configuração e não são métricas de produção. O repositório não inclui bases externas nem pesos. Veja a [licença MIT](LICENSE) para o código; datasets de terceiros têm condições próprias.

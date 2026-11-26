@@ -1,0 +1,3 @@
+PCA50: variância acumulada 96.570%; overlap cosine@15 95.390%
+PaCMAP angular · pré-PCA=None · 2D válido · overlap@15 contra cosseno original 27.086%
+PaCMAP angular · pré-PCA=50 · 2D válido · overlap@15 contra cosseno original 27.371%

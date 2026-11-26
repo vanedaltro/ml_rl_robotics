@@ -1,0 +1,5 @@
+PyTorch 2.15.0+cpu
+PC1 98.21%; erro quadrático médio com PC1: 0.07115
+Variância explicada em 2D: 100.00%
+Cosseno antes/depois da centralização: [1.0, 0.7071067811865475] [-0.6000000000000001, 0.6000000000000001]
+Verificações de projeção e reconstrução passaram.

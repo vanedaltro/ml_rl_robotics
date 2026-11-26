@@ -1,0 +1,42 @@
+{
+  "n": 900,
+  "seeds": [
+    7,
+    17,
+    37
+  ],
+  "dataset_seed": 2026,
+  "pair_seed": 2027,
+  "pairs": 20000,
+  "pca_2d_variance": 0.7377177708707466,
+  "pacmap_signature": "(n_components=2, n_neighbors=10, MN_ratio=0.5, FP_ratio=2.0, pair_neighbors=None, pair_MN=None, pair_FP=None, distance='euclidean', lr=1.0, num_iters=(100, 100, 250), verbose=False, apply_pca=True, intermediate=False, intermediate_snapshots=[0, 10, 30, 60, 100, 120, 140, 170, 200, 250, 300, 350, 450], random_state=None, save_tree=False, knn_backend='faiss')",
+  "trimap_signature": "(n_dims: 'int' = 2, n_inliers: 'int' = 12, n_outliers: 'int' = 4, n_random: 'int' = 3, distance: 'str' = 'euclidean', lr: 'float' = 0.1, n_iters: 'int' = 400, triplets: 'Any | None' = None, weights: 'Any | None' = None, use_dist_matrix: 'bool' = False, knn_tuple: 'tuple[Any, Any] | None' = None, weight_temp: 'float' = 0.5, apply_pca: 'bool' = True, opt_method: 'str' = 'dbd', gradient: 'str' = 'explicit', init: 'str | Any' = 'pca', device: 'str | torch.device | None' = None, dtype: 'torch.dtype' = torch.float32, knn_backend: 'str' = 'auto', query_batch_size: 'int' = 4096, database_batch_size: 'int' = 16384, distance_batch_size: 'int' = 1000000, triplet_batch_size: 'int' = 1000000, ann_threshold: 'int' = 50000, random_state: 'int' = 42, verbose: 'bool' = False, return_seq: 'bool' = False) -> 'None'",
+  "versions": {
+    "torch": "2.15.0+cpu",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "numba": "0.68.1",
+    "umap-learn": "0.6.0",
+    "pacmap": "0.9.1",
+    "trimap": "1.2.0",
+    "matplotlib": "3.10.8"
+  },
+  "cosine_diagnostic_separate": [
+    {
+      "components": 8,
+      "explained_variance": 0.4173810625120582,
+      "cosine_overlap_k15": 0.4318095238095238
+    },
+    {
+      "components": 24,
+      "explained_variance": 0.7999126117628403,
+      "cosine_overlap_k15": 0.8041904761904762
+    },
+    {
+      "components": 48,
+      "explained_variance": 0.9606412824442854,
+      "cosine_overlap_k15": 0.9466666666666667
+    }
+  ]
+}

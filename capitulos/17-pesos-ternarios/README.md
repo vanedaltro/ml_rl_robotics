@@ -5,6 +5,8 @@ e ternário com uma escala por neurônio/filtro. A classificação de imagens us
 dados geométricos sintéticos próprios, sem download. O exemplo de regressão
 enumera todas as nove escolhas para uma camada linear de dois pesos.
 
+[Artigo no LinkedIn](https://www.linkedin.com/pulse/e-se-cada-peso-s%25C3%25B3-pudesse-ser-1-0-ou-um-laborat%25C3%25B3rio-em-santos-daltro-btsje/) · [Post de divulgação](https://www.linkedin.com/feed/update/urn:li:activity:7531740362097373184/)
+
 ## Executar
 
 PyTorch 2.15.0+cpu, TorchAO 0.18.0+cpu, Python 3.12 e Linux x86_64 foram usados

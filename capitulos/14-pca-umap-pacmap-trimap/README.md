@@ -23,3 +23,5 @@ No macOS e Windows, consulte o [seletor oficial do PyTorch](https://pytorch.org/
 - `results.csv`, `metadados-benchmark.json` e `resultados-*.txt`: resultados e versões da execução de referência.
 
 As três sementes variam o ajuste, não o conjunto sintético. As métricas são calculadas nos próprios pontos projetados, sem avaliação fora da amostra. Resultados de uma faixa enrolada não estabelecem um ranking universal de métodos.
+
+[Artigo no LinkedIn](https://www.linkedin.com/pulse/de-pca-pacmap-como-comparar-quatro-mapas-dos-mesmos-santos-daltro-rmzqe/) · [Post ilustrado](https://www.linkedin.com/feed/update/urn:li:activity:7531711254088826881/)

@@ -1,0 +1,15 @@
+PyTorch 2.9.1 | CPU | 60,722 parâmetros
+patches=(4, 16, 48) logits=(4, 2) Conv2d=Unfold+Linear OK
+época 01: loss treino=0.7101
+época 02: loss treino=0.7019
+época 03: loss treino=0.7004
+época 04: loss treino=0.6665
+época 05: loss treino=0.4269
+época 06: loss treino=0.0906
+época 07: loss treino=0.0162
+época 08: loss treino=0.0096
+época 09: loss treino=0.0065
+época 10: loss treino=0.0049
+época 11: loss treino=0.0042
+época 12: loss treino=0.0037
+acurácia teste=100.00% | 5.2s

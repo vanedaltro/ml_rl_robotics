@@ -1,0 +1,7 @@
+PyTorch 2.9.1 | CPU
+logits: (2, 4, 40) | loss no passo: 4.1234
+delta no prefixo com máscara: 0.0
+delta no prefixo sem máscara: 0.5693
+microteste 2 tokens: [[7.84847, 13.69694], [2.0, 2.0]]
+Encoder-only: (2, 3)
+Decoder-only: (2, 4, 40)

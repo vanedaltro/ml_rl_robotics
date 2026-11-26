@@ -1,0 +1,32 @@
+semente=7
+PyTorch 2.9.1 | CPU | 60,722 parâmetros
+patches=(4, 16, 48) logits=(4, 2) Conv2d=Unfold+Linear OK
+época 01: loss treino=0.7263
+época 02: loss treino=0.6950
+época 03: loss treino=0.6969
+época 04: loss treino=0.6973
+época 05: loss treino=0.6953
+época 06: loss treino=0.6865
+época 07: loss treino=0.5723
+época 08: loss treino=0.3848
+época 09: loss treino=0.0781
+época 10: loss treino=0.0134
+época 11: loss treino=0.0061
+época 12: loss treino=0.0045
+acurácia teste=100.00% | 5.2s
+semente=123
+PyTorch 2.9.1 | CPU | 60,722 parâmetros
+patches=(4, 16, 48) logits=(4, 2) Conv2d=Unfold+Linear OK
+época 01: loss treino=0.7142
+época 02: loss treino=0.6970
+época 03: loss treino=0.6991
+época 04: loss treino=0.6965
+época 05: loss treino=0.6962
+época 06: loss treino=0.6954
+época 07: loss treino=0.6847
+época 08: loss treino=0.6630
+época 09: loss treino=0.5571
+época 10: loss treino=0.1740
+época 11: loss treino=0.0267
+época 12: loss treino=0.0253
+acurácia teste=100.00% | 5.1s

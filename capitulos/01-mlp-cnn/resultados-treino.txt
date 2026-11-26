@@ -1,0 +1,15 @@
+PyTorch 2.15.0+cpu | cpu | treino/val/teste: 55000/5000/10000
+mlp: 101,770 parâmetros
+mlp epoca=1 val_loss=0.5180 val_acc=83.24%
+mlp epoca=2 val_loss=0.4434 val_acc=84.20%
+mlp epoca=3 val_loss=0.4059 val_acc=86.34%
+mlp epoca=4 val_loss=0.3875 val_acc=86.58%
+mlp teste_loss=0.3940 teste_acc=86.15%
+Exemplo: Ankle boot (real: Ankle boot)
+cnn: 20,490 parâmetros
+cnn epoca=1 val_loss=0.4769 val_acc=82.72%
+cnn epoca=2 val_loss=0.3787 val_acc=86.12%
+cnn epoca=3 val_loss=0.3568 val_acc=87.60%
+cnn epoca=4 val_loss=0.3367 val_acc=87.72%
+cnn teste_loss=0.3438 teste_acc=87.73%
+Exemplo: Ankle boot (real: Ankle boot)

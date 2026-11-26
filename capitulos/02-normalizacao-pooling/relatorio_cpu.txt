@@ -1,0 +1,29 @@
+  7 batch+avg    val=81.50% treino=3.07s B1=0.1380ms B32=1.2921ms
+  7 sem_norm+max val=76.95% treino=2.13s B1=0.1244ms B32=3.0358ms
+  7 batch+stride val=83.20% treino=1.14s B1=0.0924ms B32=0.3496ms
+  7 group+max    val=83.00% treino=3.15s B1=0.1355ms B32=2.3200ms
+  7 batch+max    val=83.65% treino=3.26s B1=0.2839ms B32=2.3802ms
+  7 batch_fundida val=83.65% B1=0.2740ms B32=2.9403ms diff=1.5e-05
+  7 layer_c+max  val=82.40% treino=3.10s B1=0.2735ms B32=2.1922ms
+ 42 group+max    val=84.55% treino=2.95s B1=0.2884ms B32=2.8375ms
+ 42 batch+max    val=85.25% treino=3.16s B1=0.1392ms B32=2.3579ms
+ 42 batch_fundida val=85.25% B1=0.1189ms B32=2.2435ms diff=1.5e-05
+ 42 layer_c+max  val=82.90% treino=2.76s B1=0.2467ms B32=2.4965ms
+ 42 batch+avg    val=82.30% treino=3.75s B1=0.3034ms B32=1.8161ms
+ 42 sem_norm+max val=76.75% treino=2.63s B1=0.2442ms B32=2.8463ms
+ 42 batch+stride val=83.70% treino=1.13s B1=0.1047ms B32=0.3641ms
+123 group+max    val=84.95% treino=3.05s B1=0.2765ms B32=2.8196ms
+123 batch+avg    val=82.40% treino=3.07s B1=0.3174ms B32=1.7408ms
+123 batch+max    val=84.70% treino=3.24s B1=0.3096ms B32=2.3628ms
+123 batch_fundida val=84.70% B1=0.1228ms B32=2.3811ms diff=1.3e-05
+123 batch+stride val=82.70% treino=0.89s B1=0.0807ms B32=0.3440ms
+123 layer_c+max  val=82.80% treino=2.76s B1=0.1410ms B32=1.5146ms
+123 sem_norm+max val=76.95% treino=2.62s B1=0.2957ms B32=2.8813ms
+CPU | Torch 2.15.0+cpu | threads 2 | epochs 2 | treino/val 6000/2000
+sem_norm+max 0.7695 2.617029 0.24425 2.881277 None
+batch+max 0.847 3.238623 0.283916 2.362774 None
+layer_c+max 0.828 2.764861 0.246745 2.1922 None
+group+max 0.8455 3.054561 0.276544 2.819645 None
+batch+avg 0.823 3.073099 0.303401 1.740767 None
+batch+stride 0.832 1.13244 0.092424 0.34963 None
+batch_fundida 0.847 None 0.122764 2.381109 1.5e-05

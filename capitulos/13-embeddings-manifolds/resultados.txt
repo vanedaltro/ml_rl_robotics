@@ -1,0 +1,7 @@
+PyTorch 2.9.1 | CPU | float64
+Candidatos A, B, C: cosseno [1.0, 0.9701, 0.8575] L2 [4.0, 0.2828, 0.6]
+Espiral: corda=6.2832; arco aproximado=38.4373
+KL(P||Q)=0.192745; KL(Q||P)=0.223144; JS=0.050672; raiz(JS)=0.225104; TV=0.300000; Hellinger=0.226532
+Wasserstein 1D: picos em 0 e 1 => 1.0; em 0 e 5 => 5.0.
+Energy (0 vs 5)=3.162278; MMD² RBF (mesmas marginais)=0.747645.
+Todas as verificações passaram.

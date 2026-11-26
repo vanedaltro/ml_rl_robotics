@@ -32,5 +32,6 @@ No PowerShell, ative o ambiente com `.venv\Scripts\Activate.ps1`. Os exemplos cu
 | 10 | [Tokens, embeddings e posições](capitulos/10-tokens-embeddings/) | [LinkedIn](https://www.linkedin.com/pulse/antes-do-transformer-como-texto-e-pixels-viram-tokens-santos-daltro-jxzne/) |
 | 11 | [Transformer original e as três famílias](capitulos/11-transformers/) | [LinkedIn](https://www.linkedin.com/pulse/transformers-por-dentro-do-paper-ao-primeiro-modelo-em-santos-daltro-enfse/) |
 | 12 | [Vision Transformer em CPU](capitulos/12-vision-transformers/) | [LinkedIn](https://www.linkedin.com/pulse/vision-transformers-na-pr%C3%A1tica-um-vit-do-zero-em-santos-daltro-bvvve/) |
+| 13 | [Embeddings, variedades e distâncias](capitulos/13-embeddings-manifolds/) | Em publicação |
 
 Resultados de laboratórios sintéticos e tempos de execução dependem da configuração e não são métricas de produção. O repositório não inclui bases externas nem pesos. Veja a [licença MIT](LICENSE) para o código; datasets de terceiros têm condições próprias.

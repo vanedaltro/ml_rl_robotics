@@ -1,0 +1,40 @@
+1. CADEIA DO CLIMA
+P:
+  ordem: SOL, CHUVA
+  [0.80, 0.20]
+  [0.40, 0.60]
+Partindo de SOL: chuva amanhã = 20.00%; em dois dias = 28.00%.
+Probabilidade estacionária de chuva: 33.33% (1/3).
+Simulação (20000 trajetórias, semente 42): 20.17% e 27.69%.
+
+2. MODELO COM MEMÓRIA DE DOIS DIAS
+Ontem SOL, hoje CHUVA: chuva amanhã = 40.00%.
+Ontem CHUVA, hoje CHUVA: chuva amanhã = 80.00%.
+Matriz nos pares:
+  ordem: SOL/SOL, SOL/CHUVA, CHUVA/SOL, CHUVA/CHUVA
+  [0.90, 0.10, 0.00, 0.00]
+  [0.00, 0.00, 0.60, 0.40]
+  [0.70, 0.30, 0.00, 0.00]
+  [0.00, 0.00, 0.20, 0.80]
+
+3. MDP DE NAVEGAÇÃO
+gamma = 0.9; atualizações síncronas = 3
+  Q(partida, atalho) = 1.00; Q(partida, desvio) = 6.20.
+  V(partida) = 6.20; V(corredor) = 8.00.
+  política: partida → desvio, corredor → avançar
+  cadeia induzida (sem recompensas):
+  ordem: partida, corredor, meta, falha
+  [0.00, 1.00, 0.00, 0.00]
+  [0.00, 0.00, 1.00, 0.00]
+  [0.00, 0.00, 1.00, 0.00]
+  [0.00, 0.00, 0.00, 1.00]
+gamma = 0.0; atualizações síncronas = 2
+  Q(partida, atalho) = 1.00; Q(partida, desvio) = -1.00.
+  V(partida) = 1.00; V(corredor) = 8.00.
+  política: partida → atalho, corredor → avançar
+  cadeia induzida (sem recompensas):
+  ordem: partida, corredor, meta, falha
+  [0.00, 0.00, 0.70, 0.30]
+  [0.00, 0.00, 1.00, 0.00]
+  [0.00, 0.00, 1.00, 0.00]
+  [0.00, 0.00, 0.00, 1.00]

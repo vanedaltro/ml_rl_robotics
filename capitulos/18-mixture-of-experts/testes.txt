@@ -1,0 +1,11 @@
+test_balancing_penalizes_deliberate_collapse_and_has_gradients (test_lab_moe.TestSparseMoE.test_balancing_penalizes_deliberate_collapse_and_has_gradients) ... ok
+test_causal_prefix_does_not_see_suffix (test_lab_moe.TestSparseMoE.test_causal_prefix_does_not_see_suffix) ... ok
+test_renormalized_top1_main_gate_constant (test_lab_moe.TestSparseMoE.test_renormalized_top1_main_gate_constant) ... ok
+test_router_and_selected_expert_gradients (test_lab_moe.TestSparseMoE.test_router_and_selected_expert_gradients) ... ok
+test_sparse_dispatch_matches_dense_reference_only_selected_tokens (test_lab_moe.TestSparseMoE.test_sparse_dispatch_matches_dense_reference_only_selected_tokens) ... ok
+test_top_k_counts_and_weights (test_lab_moe.TestSparseMoE.test_top_k_counts_and_weights) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.598s
+
+OK

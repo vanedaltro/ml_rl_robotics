@@ -1,0 +1,358 @@
+{
+  "train_n": 2048,
+  "test_n": 64,
+  "split_seed": 2028,
+  "summary": [
+    {
+      "mode": "dense",
+      "acc_mean": 28.645833333333332,
+      "acc_sd": 3.2526031241658324,
+      "nll_mean": 4.422888120015462,
+      "routing_pct_mean": null
+    },
+    {
+      "mode": "moe_sem_aux",
+      "acc_mean": 26.5625,
+      "acc_sd": 5.633673867912483,
+      "nll_mean": 4.7089128494262695,
+      "routing_pct_mean": [
+        32.486979166666664,
+        34.440104166666664,
+        17.057291666666668,
+        16.015625
+      ]
+    },
+    {
+      "mode": "moe_com_aux",
+      "acc_mean": 29.6875,
+      "acc_sd": 3.125,
+      "nll_mean": 4.5022233327229815,
+      "routing_pct_mean": [
+        24.674479166666668,
+        25.325520833333332,
+        25.520833333333332,
+        24.479166666666668
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "mode": "dense",
+      "seed": 7,
+      "balance_coefficient": 0.0,
+      "parameters": 9440,
+      "ffn_parameters_total": 4096,
+      "ffn_parameters_active_per_token": 4096,
+      "initial": {
+        "accuracy_pct": 9.375,
+        "cross_entropy": 2.200700044631958,
+        "routing_counts": null,
+        "routing_pct": null,
+        "routed_token_expert_pairs": null
+      },
+      "final": {
+        "accuracy_pct": 31.25,
+        "cross_entropy": 4.35007905960083,
+        "routing_counts": null,
+        "routing_pct": null,
+        "routed_token_expert_pairs": null
+      }
+    },
+    {
+      "mode": "dense",
+      "seed": 23,
+      "balance_coefficient": 0.0,
+      "parameters": 9440,
+      "ffn_parameters_total": 4096,
+      "ffn_parameters_active_per_token": 4096,
+      "initial": {
+        "accuracy_pct": 12.5,
+        "cross_entropy": 2.2005393505096436,
+        "routing_counts": null,
+        "routing_pct": null,
+        "routed_token_expert_pairs": null
+      },
+      "final": {
+        "accuracy_pct": 25.0,
+        "cross_entropy": 4.911026954650879,
+        "routing_counts": null,
+        "routing_pct": null,
+        "routed_token_expert_pairs": null
+      }
+    },
+    {
+      "mode": "dense",
+      "seed": 42,
+      "balance_coefficient": 0.0,
+      "parameters": 9440,
+      "ffn_parameters_total": 4096,
+      "ffn_parameters_active_per_token": 4096,
+      "initial": {
+        "accuracy_pct": 12.5,
+        "cross_entropy": 2.289139747619629,
+        "routing_counts": null,
+        "routing_pct": null,
+        "routed_token_expert_pairs": null
+      },
+      "final": {
+        "accuracy_pct": 29.6875,
+        "cross_entropy": 4.007558345794678,
+        "routing_counts": null,
+        "routing_pct": null,
+        "routed_token_expert_pairs": null
+      }
+    },
+    {
+      "mode": "moe_sem_aux",
+      "seed": 7,
+      "balance_coefficient": 0.0,
+      "parameters": 21860,
+      "ffn_parameters_total": 16384,
+      "ffn_parameters_active_per_token": 8192,
+      "initial": {
+        "accuracy_pct": 7.8125,
+        "cross_entropy": 2.1919162273406982,
+        "routing_counts": [
+          256,
+          256,
+          0,
+          0
+        ],
+        "routing_pct": [
+          50.0,
+          50.0,
+          0.0,
+          0.0
+        ],
+        "routed_token_expert_pairs": 512
+      },
+      "final": {
+        "accuracy_pct": 32.8125,
+        "cross_entropy": 4.662721157073975,
+        "routing_counts": [
+          87,
+          201,
+          73,
+          151
+        ],
+        "routing_pct": [
+          16.9921875,
+          39.2578125,
+          14.2578125,
+          29.4921875
+        ],
+        "routed_token_expert_pairs": 512
+      }
+    },
+    {
+      "mode": "moe_sem_aux",
+      "seed": 23,
+      "balance_coefficient": 0.0,
+      "parameters": 21860,
+      "ffn_parameters_total": 16384,
+      "ffn_parameters_active_per_token": 8192,
+      "initial": {
+        "accuracy_pct": 12.5,
+        "cross_entropy": 2.2131035327911377,
+        "routing_counts": [
+          256,
+          256,
+          0,
+          0
+        ],
+        "routing_pct": [
+          50.0,
+          50.0,
+          0.0,
+          0.0
+        ],
+        "routed_token_expert_pairs": 512
+      },
+      "final": {
+        "accuracy_pct": 21.875,
+        "cross_entropy": 5.098874092102051,
+        "routing_counts": [
+          183,
+          232,
+          76,
+          21
+        ],
+        "routing_pct": [
+          35.7421875,
+          45.3125,
+          14.84375,
+          4.1015625
+        ],
+        "routed_token_expert_pairs": 512
+      }
+    },
+    {
+      "mode": "moe_sem_aux",
+      "seed": 42,
+      "balance_coefficient": 0.0,
+      "parameters": 21860,
+      "ffn_parameters_total": 16384,
+      "ffn_parameters_active_per_token": 8192,
+      "initial": {
+        "accuracy_pct": 9.375,
+        "cross_entropy": 2.3071484565734863,
+        "routing_counts": [
+          256,
+          256,
+          0,
+          0
+        ],
+        "routing_pct": [
+          50.0,
+          50.0,
+          0.0,
+          0.0
+        ],
+        "routed_token_expert_pairs": 512
+      },
+      "final": {
+        "accuracy_pct": 25.0,
+        "cross_entropy": 4.365143299102783,
+        "routing_counts": [
+          229,
+          96,
+          113,
+          74
+        ],
+        "routing_pct": [
+          44.7265625,
+          18.75,
+          22.0703125,
+          14.453125
+        ],
+        "routed_token_expert_pairs": 512
+      }
+    },
+    {
+      "mode": "moe_com_aux",
+      "seed": 7,
+      "balance_coefficient": 0.2,
+      "parameters": 21860,
+      "ffn_parameters_total": 16384,
+      "ffn_parameters_active_per_token": 8192,
+      "initial": {
+        "accuracy_pct": 7.8125,
+        "cross_entropy": 2.1919162273406982,
+        "routing_counts": [
+          256,
+          256,
+          0,
+          0
+        ],
+        "routing_pct": [
+          50.0,
+          50.0,
+          0.0,
+          0.0
+        ],
+        "routed_token_expert_pairs": 512
+      },
+      "final": {
+        "accuracy_pct": 32.8125,
+        "cross_entropy": 4.322727203369141,
+        "routing_counts": [
+          125,
+          131,
+          134,
+          122
+        ],
+        "routing_pct": [
+          24.4140625,
+          25.5859375,
+          26.171875,
+          23.828125
+        ],
+        "routed_token_expert_pairs": 512
+      }
+    },
+    {
+      "mode": "moe_com_aux",
+      "seed": 23,
+      "balance_coefficient": 0.2,
+      "parameters": 21860,
+      "ffn_parameters_total": 16384,
+      "ffn_parameters_active_per_token": 8192,
+      "initial": {
+        "accuracy_pct": 12.5,
+        "cross_entropy": 2.2131035327911377,
+        "routing_counts": [
+          256,
+          256,
+          0,
+          0
+        ],
+        "routing_pct": [
+          50.0,
+          50.0,
+          0.0,
+          0.0
+        ],
+        "routed_token_expert_pairs": 512
+      },
+      "final": {
+        "accuracy_pct": 26.5625,
+        "cross_entropy": 5.00842809677124,
+        "routing_counts": [
+          113,
+          121,
+          142,
+          136
+        ],
+        "routing_pct": [
+          22.0703125,
+          23.6328125,
+          27.734375,
+          26.5625
+        ],
+        "routed_token_expert_pairs": 512
+      }
+    },
+    {
+      "mode": "moe_com_aux",
+      "seed": 42,
+      "balance_coefficient": 0.2,
+      "parameters": 21860,
+      "ffn_parameters_total": 16384,
+      "ffn_parameters_active_per_token": 8192,
+      "initial": {
+        "accuracy_pct": 9.375,
+        "cross_entropy": 2.3071484565734863,
+        "routing_counts": [
+          256,
+          256,
+          0,
+          0
+        ],
+        "routing_pct": [
+          50.0,
+          50.0,
+          0.0,
+          0.0
+        ],
+        "routed_token_expert_pairs": 512
+      },
+      "final": {
+        "accuracy_pct": 29.6875,
+        "cross_entropy": 4.1755146980285645,
+        "routing_counts": [
+          141,
+          137,
+          116,
+          118
+        ],
+        "routing_pct": [
+          27.5390625,
+          26.7578125,
+          22.65625,
+          23.046875
+        ],
+        "routed_token_expert_pairs": 512
+      }
+    }
+  ]
+}

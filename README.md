@@ -34,6 +34,6 @@ No PowerShell, ative o ambiente com `.venv\Scripts\Activate.ps1`. Os exemplos cu
 | 12 | [Vision Transformer em CPU](capitulos/12-vision-transformers/) | [LinkedIn](https://www.linkedin.com/pulse/vision-transformers-na-pr%C3%A1tica-um-vit-do-zero-em-santos-daltro-bvvve/) |
 | 13 | [Embeddings, variedades e distâncias](capitulos/13-embeddings-manifolds/) | [LinkedIn](https://www.linkedin.com/pulse/antes-do-umap-embeddings-manifolds-e-geometria-dos-santos-daltro-pieve/) |
 | 14 | [PCA, UMAP, PaCMAP e TriMap](capitulos/14-pca-umap-pacmap-trimap/) | [LinkedIn](https://www.linkedin.com/pulse/de-pca-pacmap-como-comparar-quatro-mapas-dos-mesmos-santos-daltro-rmzqe/) |
-| 15 | [Cadeias de Markov e MDPs](capitulos/15-markov-mdp/) | A publicar |
+| 15 | [Cadeias de Markov e MDPs](capitulos/15-markov-mdp/) | [LinkedIn](https://www.linkedin.com/pulse/cadeias-de-markov-e-mdps-prever-chuva-decidir-rota-um-santos-daltro-jjh5e/) |
 
 Resultados de laboratórios sintéticos e tempos de execução dependem da configuração e não são métricas de produção. O repositório não inclui bases externas nem pesos. Veja a [licença MIT](LICENSE) para o código; datasets de terceiros têm condições próprias.

@@ -4,6 +4,8 @@ O laboratório compara previsão de transições com decisão por recompensa. Os
 
 ![Uma cadeia relaciona o estado atual ao próximo; um MDP também considera a ação e a recompensa.](figuras/01-cadeia-vs-mdp.png)
 
+[Artigo no LinkedIn](https://www.linkedin.com/pulse/cadeias-de-markov-e-mdps-prever-chuva-decidir-rota-um-santos-daltro-jjh5e/) · [Post de divulgação](https://www.linkedin.com/posts/edvane-cristina-santos-daltro-76150519a_python-reinforcementlearning-markovchains-ugcPost-7531723178667155457-bzQk/)
+
 ## Execute em CPU
 
 O laboratório e os testes usam apenas a biblioteca padrão do Python:

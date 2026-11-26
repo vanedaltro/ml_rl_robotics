@@ -4,6 +4,8 @@ Aqui, a atenção causal é compartilhada. Só trocamos a FFN do bloco: uma
 FFN no modelo denso, ou um roteador e quatro FFNs independentes no modelo MoE.
 Para cada token no MoE, apenas as duas FFNs escolhidas recebem a representação.
 
+[Artigo no LinkedIn](https://www.linkedin.com/pulse/mixture-experts-na-pr%25C3%25A1tica-um-transformer-que-escolhe-santos-daltro-o1n3e/) · [Post de divulgação](https://www.linkedin.com/feed/update/urn:li:activity:7531746119744249856/)
+
 ## Rode o laboratório
 
 Ambiente medido: Python 3.12, PyTorch 2.15.0+cpu, Linux x86_64.

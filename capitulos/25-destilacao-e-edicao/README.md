@@ -9,3 +9,5 @@ python -m unittest -v test_lab.py
 ```
 
 Opcional: `python -m pip install matplotlib` e `python gerar_figuras.py` para recriar os diagramas a partir dos resultados registrados. Para substituí-los, rode `python lab.py > resultados.json` antes. Referências primárias e limitações estão no artigo.
+
+[Artigo no LinkedIn](https://www.linkedin.com/pulse/como-um-modelo-pequeno-aprende-com-grande-destila%C3%A7%C3%A3o-e-santos-daltro-fhvve/) · [Post do capítulo](https://www.linkedin.com/feed/update/urn:li:ugcPost:7532060699494137857/).

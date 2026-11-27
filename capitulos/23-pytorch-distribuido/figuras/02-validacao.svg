@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="806.4pt" height="453.6pt" viewBox="0 0 806.4 453.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-27T07:37:34.041660</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 453.6
+L 806.4 453.6
+L 806.4 0
+L 0 0
+z
+" style="fill: #0b1529"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 55.44 296.64
+L 251.28 296.64
+Q 263.52 296.64 263.52 284.4
+L 263.52 164.88
+Q 263.52 152.64 251.28 152.64
+L 55.44 152.64
+Q 43.2 152.64 43.2 164.88
+L 43.2 284.4
+Q 43.2 296.64 55.44 296.64
+z
+" clip-path="url(#p385d09df00)" style="fill: #142743; stroke: #8bc7ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 304.56 296.64
+L 500.4 296.64
+Q 512.64 296.64 512.64 284.4
+L 512.64 164.88
+Q 512.64 152.64 500.4 152.64
+L 304.56 152.64
+Q 292.32 152.64 292.32 164.88
+L 292.32 284.4
+Q 292.32 296.64 304.56 296.64
+z
+" clip-path="url(#p385d09df00)" style="fill: #142743; stroke: #82f1c5; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 553.68 296.64
+L 750.96 296.64
+Q 763.2 296.64 763.2 284.4
+L 763.2 164.88
+Q 763.2 152.64 750.96 152.64
+L 553.68 152.64
+Q 541.44 152.64 541.44 164.88
+L 541.44 284.4
+Q 541.44 296.64 553.68 296.64
+z
+" clip-path="url(#p385d09df00)" style="fill: #142743; stroke: #8bc7ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 266.239951 231.12
+Q 277.559876 231.12 286.979143 231.12
+" clip-path="url(#p385d09df00)" style="fill: none; stroke: #82f1c5; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 281.379143 228.32
+L 286.979143 231.12
+L 281.379143 233.92
+z
+" clip-path="url(#p385d09df00)" style="fill: #82f1c5; stroke: #82f1c5; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 515.360566 231.12
+Q 527.038846 231.12 536.816467 231.12
+" clip-path="url(#p385d09df00)" style="fill: none; stroke: #82f1c5; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 531.216467 228.32
+L 536.816467 231.12
+L 531.216467 233.92
+z
+" clip-path="url(#p385d09df00)" style="fill: #82f1c5; stroke: #82f1c5; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #82f1c5" x="43.2" y="39.6" transform="rotate(-0 43.2 39.6)">PYTORCH  /  VALIDAÇÃO</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 28px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f8ff" x="43.2" y="77.04" transform="rotate(-0 43.2 77.04)">Três testes, três respostas</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #b4c5dc" x="43.92" y="104.4" transform="rotate(-0 43.92 104.4)">Separar correção, rede e desempenho evita confundir um treino que roda com um treino que escala.</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #8bc7ff" x="59.04" y="178.56" transform="rotate(-0 59.04 178.56)">01  CORREÇÃO</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #f4f8ff" transform="translate(59.04 209.278125)">Dois ranks no mesmo host.</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #f4f8ff" transform="translate(59.04 226.650844)">As réplicas concordam?</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #f4f8ff" transform="translate(59.04 243.314437)">A atualização bate com</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #f4f8ff" transform="translate(59.04 259.943156)">um lote global equivalente?</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #82f1c5" x="308.16" y="178.56" transform="rotate(-0 308.16 178.56)">02  CONECTIVIDADE</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #f4f8ff" transform="translate(308.16 209.758125)">Duas máquinas na LAN.</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #f4f8ff" transform="translate(308.16 226.386844)">O ponto de encontro funciona?</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #f4f8ff" transform="translate(308.16 243.015562)">Os ranks trocam gradientes?</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #f4f8ff" transform="translate(308.16 259.644281)">O rank 0 grava o checkpoint?</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #8bc7ff" x="557.28" y="178.56" transform="rotate(-0 557.28 178.56)">03  DESEMPENHO</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #f4f8ff" transform="translate(557.28 209.278125)">Use o mesmo lote global.</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #f4f8ff" transform="translate(557.28 225.906844)">Meça exemplos por segundo</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #f4f8ff" transform="translate(557.28 243.279562)">após aquecimento. Compare</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #f4f8ff" transform="translate(557.28 259.908281)">o tempo do rank mais lento.</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #82f1c5" x="46.08" y="356.4" transform="rotate(-0 46.08 356.4)">PONTO DE PARTIDA</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f8ff" x="46.08" y="381.6" transform="rotate(-0 46.08 381.6)">1 rank × 64 exemplos  |  2 ranks × 32 exemplos</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #b4c5dc" x="46.08" y="414.72" transform="rotate(-0 46.08 414.72)">A rede pode custar mais tempo do que a segunda máquina economiza. Meça antes de concluir.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p385d09df00">
+   <rect x="0" y="0" width="806.4" height="453.6"/>
+  </clipPath>
+ </defs>
+</svg>

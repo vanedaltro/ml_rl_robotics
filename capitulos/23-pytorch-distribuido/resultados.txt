@@ -1,0 +1,20 @@
+PyTorch 2.9.1 | CPU/Gloo | dois lançadores via TCP no mesmo Mac arm64
+rank=0 local_rank=0 world_size=2 backend=gloo shard=1024
+rank=1 local_rank=0 world_size=2 backend=gloo shard=1024
+epoch=01 train_loss=1.2089 train_acc=53.37% examples=2048
+epoch=02 train_loss=0.8586 train_acc=76.37% examples=2048
+epoch=03 train_loss=0.6034 train_acc=86.67% examples=2048
+epoch=04 train_loss=0.4401 train_acc=91.06% examples=2048
+epoch=05 train_loss=0.3429 train_acc=93.55% examples=2048
+max_replica_diff=0.000e+00
+Apenas o rank 0 gravou o checkpoint. Não é teste em duas máquinas físicas nem benchmark.
+
+test_checkpoint_equivale_a_batch_global (test_train_ddp.DDPTests.test_checkpoint_equivale_a_batch_global) ... max_gap_vs_serial_global_batch_64=1.192e-07
+ok
+test_dataset_reproduzivel (test_train_ddp.DDPTests.test_dataset_reproduzivel) ... ok
+test_shards_sem_repeticao_e_com_shuffle_por_epoca (test_train_ddp.DDPTests.test_shards_sem_repeticao_e_com_shuffle_por_epoca) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.498s
+
+OK

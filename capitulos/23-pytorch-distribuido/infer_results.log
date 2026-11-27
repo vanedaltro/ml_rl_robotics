@@ -1,0 +1,12 @@
+test_checkpoint_equivale_a_batch_global (test_train_ddp.DDPTests.test_checkpoint_equivale_a_batch_global) ... max_gap_vs_serial_global_batch_64=1.192e-07
+ok
+test_dataset_reproduzivel (test_train_ddp.DDPTests.test_dataset_reproduzivel) ... ok
+test_shards_sem_repeticao_e_com_shuffle_por_epoca (test_train_ddp.DDPTests.test_shards_sem_repeticao_e_com_shuffle_por_epoca) ... ok
+test_replicas_round_robin_failover_e_cadeia (test_inference_ddp.InferenceTests.test_replicas_round_robin_failover_e_cadeia) ... replicas={'R0': 6, 'R1': 6} failover_R0_para_R1=ok rejeicao_entrada=400
+split_vs_local_max_abs_diff=0.000e+00 split_sem_B_ready=503 predict=502
+ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 5.859s
+
+OK

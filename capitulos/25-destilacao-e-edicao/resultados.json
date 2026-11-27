@@ -1,0 +1,61 @@
+{
+  "torch": "2.9.1",
+  "seeds": {
+    "7": {
+      "professor": 86.767578125,
+      "labels": 57.763671875,
+      "hard": 59.66796875,
+      "soft": 66.015625
+    },
+    "23": {
+      "professor": 86.328125,
+      "labels": 61.962890625,
+      "hard": 64.35546875,
+      "soft": 68.994140625
+    },
+    "42": {
+      "professor": 86.279296875,
+      "labels": 60.107421875,
+      "hard": 67.1875,
+      "soft": 68.896484375
+    }
+  },
+  "metricas": {
+    "professor": {
+      "media_pct": 86.45833333333333,
+      "dp_amostral_pp": 0.2689243431292042
+    },
+    "labels": {
+      "media_pct": 59.944661458333336,
+      "dp_amostral_pp": 2.1043354633976543
+    },
+    "hard": {
+      "media_pct": 63.736979166666664,
+      "dp_amostral_pp": 3.7977275545318574
+    },
+    "soft": {
+      "media_pct": 67.96875,
+      "dp_amostral_pp": 1.6921604932776813
+    }
+  },
+  "edicao_didatica": {
+    "original": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "editado": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "esperado": [
+      true,
+      true,
+      false,
+      false
+    ]
+  }
+}

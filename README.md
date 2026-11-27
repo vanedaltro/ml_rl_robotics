@@ -39,8 +39,8 @@ No PowerShell, ative o ambiente com `.venv\Scripts\Activate.ps1`. Os exemplos cu
 | 17 | [Pesos ternários estritos e com escala](capitulos/17-pesos-ternarios/) | [LinkedIn](https://www.linkedin.com/pulse/e-se-cada-peso-s%25C3%25B3-pudesse-ser-1-0-ou-um-laborat%25C3%25B3rio-em-santos-daltro-btsje/) |
 | 18 | [Mixture of Experts em PyTorch](capitulos/18-mixture-of-experts/) | [LinkedIn](https://www.linkedin.com/pulse/mixture-experts-na-pr%25C3%25A1tica-um-transformer-que-escolhe-santos-daltro-o1n3e/) |
 | 19 | [Avaliação de modelos sem vazamento](capitulos/19-avaliacao-sem-vazamento/) | [LinkedIn](https://www.linkedin.com/pulse/avalia%25C3%25A7%25C3%25A3o-sem-vazamento-por-que-100-teste-pode-n%25C3%25A3o-em-santos-daltro-ww4je/) |
-| 20 | [Treino de um mini Transformer causal](capitulos/20-transformer-treino/) | A publicar |
-| 21 | [Da previsão à decisão na robótica](capitulos/21-previsao-a-decisao/) | A publicar |
+| 20 | [Treino de um mini Transformer causal](capitulos/20-transformer-treino/) | [Artigo](https://www.linkedin.com/pulse/cap%25C3%25ADtulo-20-treinando-um-mini-transformer-causal-do-santos-daltro-pf3he/) · [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7532039543923847170/) |
+| 21 | [Da previsão à decisão na robótica](capitulos/21-previsao-a-decisao/) | [Artigo](https://www.linkedin.com/pulse/da-previs%C3%A3o-%C3%A0-decis%C3%A3o-um-rob%C3%B4-de-brinquedo-em-pytorch-santos-daltro-julke/) · [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7532041826900283392/) |
 | 23 | [PyTorch distribuído e inferência](capitulos/23-pytorch-distribuido/) | [LinkedIn](https://www.linkedin.com/pulse/pytorch-distribu%C3%ADdo-na-pr%C3%A1tica-v%C3%A1rias-gpus-duas-e-santos-daltro-gjxqe/) |
 | 24 | [Fine-tuning e esquecimento catastrófico](capitulos/24-fine-tuning/) | [LinkedIn](https://www.linkedin.com/pulse/fine-tuning-sem-esquecer-do-mlp-aos-adapters-de-llms-santos-daltro-bv2se/) |
 | 25 | [Destilação, dados sintéticos e edição de pesos](capitulos/25-destilacao-e-edicao/) | [LinkedIn](https://www.linkedin.com/pulse/como-um-modelo-pequeno-aprende-com-grande-destila%C3%A7%C3%A3o-e-santos-daltro-fhvve/) |

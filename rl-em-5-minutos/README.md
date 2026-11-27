@@ -5,7 +5,7 @@ O mesmo robô, do primeiro GridWorld a locomoção, com **um laboratório por ca
 | Nº | Capítulo | Vídeo(s) | Laboratório |
 | :-- | :-- | :-- | :-- |
 | 01 | O que é Reinforcement Learning? | 1 | [GridWorld em Python](01-introducao/) |
-| 02 | Explorar ou aproveitar? Bandits | 2 | Planejado |
+| 02 | Explorar ou aproveitar? Bandits | 2 | [Laboratório de bandits](02-bandits/) |
 | 03 | Processos de decisão de Markov | 3 | Planejado |
 | 04 | Política e valor | 4 | Planejado |
 | 05 | Programação dinâmica para RL | 5 | Planejado |
@@ -19,6 +19,8 @@ O mesmo robô, do primeiro GridWorld a locomoção, com **um laboratório por ca
 | 13 | RL com modelo | 14 | Planejado |
 | 14 | RL multiagente | 15 | Planejado |
 | 15 | Como um robô aprende a andar | 16 | Planejado |
+
+[Artigo do episódio 1, com vídeo](https://www.linkedin.com/pulse/o-que-%25C3%25A9-reinforcement-learning-um-rob%25C3%25B4-duas-rotas-e-santos-daltro-i77be/) · [Post do episódio 1](https://www.linkedin.com/feed/update/urn:li:activity:7532110045845684224/)
 
 Leitura complementar: [A matemática do Reinforcement Learning: de Bellman ao PPO](https://www.linkedin.com/pulse/matem%25C3%25A1tica-do-reinforcement-learning-de-bellman-ao-santos-daltro-7hofe/).
 

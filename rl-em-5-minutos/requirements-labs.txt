@@ -1,0 +1,5 @@
+# A maioria dos capítulos usa apenas a biblioteca padrão.
+-r 08-dqn/requirements.txt
+-r 09-policy-gradient/requirements.txt
+-r 10-actor-critic/requirements.txt
+-r 11-trpo-ppo/requirements.txt

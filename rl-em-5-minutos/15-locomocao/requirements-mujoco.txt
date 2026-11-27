@@ -1,0 +1,4 @@
+# Extensão opcional. O laboratório locomocao.py não precisa destes pacotes.
+gymnasium[mujoco]==1.4.0
+mujoco==4.0.1
+numpy==2.5.5

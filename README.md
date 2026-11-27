@@ -18,7 +18,7 @@ No PowerShell, ative o ambiente com `.venv\Scripts\Activate.ps1`. Os exemplos cu
 
 ## RL em 5 minutos
 
-A [trilha de Reinforcement Learning](rl-em-5-minutos/) acompanha o mesmo robô em 15 capítulos, com um laboratório por artigo. O [capítulo 01](rl-em-5-minutos/01-introducao/) começa com um GridWorld em Python puro.
+A [trilha de Reinforcement Learning](rl-em-5-minutos/) reúne 15 laboratórios executáveis, do [GridWorld em Python puro](rl-em-5-minutos/01-introducao/) a PPO, aprendizado multiagente e locomoção simulada. O [validador da trilha](rl-em-5-minutos/validar.py) roda os testes e uma demonstração curta de cada capítulo.
 
 ## Capítulos
 

@@ -44,5 +44,6 @@ No PowerShell, ative o ambiente com `.venv\Scripts\Activate.ps1`. Os exemplos cu
 | 23 | [PyTorch distribuído e inferência](capitulos/23-pytorch-distribuido/) | [LinkedIn](https://www.linkedin.com/pulse/pytorch-distribu%C3%ADdo-na-pr%C3%A1tica-v%C3%A1rias-gpus-duas-e-santos-daltro-gjxqe/) |
 | 24 | [Fine-tuning e esquecimento catastrófico](capitulos/24-fine-tuning/) | [LinkedIn](https://www.linkedin.com/pulse/fine-tuning-sem-esquecer-do-mlp-aos-adapters-de-llms-santos-daltro-bv2se/) |
 | 25 | [Destilação, dados sintéticos e edição de pesos](capitulos/25-destilacao-e-edicao/) | [LinkedIn](https://www.linkedin.com/pulse/como-um-modelo-pequeno-aprende-com-grande-destila%C3%A7%C3%A3o-e-santos-daltro-fhvve/) |
+| 26 | [Calibração, mudança de distribuição e abstenção](capitulos/26-calibracao-e-abstencao/) | [LinkedIn](https://www.linkedin.com/pulse/quando-o-modelo-deve-dizer-n%C3%A3o-sei-calibra%C3%A7%C3%A3o-imagens-santos-daltro-ujexe/) |
 
 Resultados de laboratórios sintéticos e tempos de execução dependem da configuração e não são métricas de produção. O repositório não inclui bases externas nem pesos. Veja a [licença MIT](LICENSE) para o código; datasets de terceiros têm condições próprias.

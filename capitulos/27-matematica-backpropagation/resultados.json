@@ -1,0 +1,29 @@
+[
+  {
+    "activation": "relu",
+    "loss": "ce",
+    "before": 1.4368579676611566,
+    "after_sgd": 1.300514049577846,
+    "max_error_finite_difference": 1.642130736945191e-10,
+    "max_error_autograd": 1.1102230246251565e-16,
+    "loss_error_autograd": 0.0
+  },
+  {
+    "activation": "tanh",
+    "loss": "ce",
+    "before": 1.2152370309606468,
+    "after_sgd": 1.1865912495642263,
+    "max_error_finite_difference": 1.6985474832198477e-10,
+    "max_error_autograd": 2.7755575615628914e-17,
+    "loss_error_autograd": 0.0
+  },
+  {
+    "activation": "sigmoid",
+    "loss": "kl",
+    "before": 0.415087079459805,
+    "after_sgd": 0.41083037204943684,
+    "max_error_finite_difference": 8.543553711715113e-11,
+    "max_error_autograd": 4.163336342344337e-17,
+    "loss_error_autograd": 0.0
+  }
+]

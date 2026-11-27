@@ -9,3 +9,5 @@ python -m unittest -v test_lab.py
 ~~~
 
 Para rodar sem PyTorch: instale NumPy e rode `python lab.py --numpy-only`. Opcionalmente, instale matplotlib e rode `python gerar_figuras.py`. Consulte `artigo.md` e `resultados.json`.
+
+[Artigo no LinkedIn](https://www.linkedin.com/pulse/do-s%C3%ADmbolo-ao-c%C3%B3digo-matem%C3%A1tica-backpropagation-antes-santos-daltro-wesbe/) · [Post do capítulo](https://www.linkedin.com/feed/update/urn:li:ugcPost:7532073941410992131/).

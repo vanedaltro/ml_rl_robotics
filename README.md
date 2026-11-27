@@ -41,5 +41,7 @@ No PowerShell, ative o ambiente com `.venv\Scripts\Activate.ps1`. Os exemplos cu
 | 19 | [Avaliação de modelos sem vazamento](capitulos/19-avaliacao-sem-vazamento/) | [LinkedIn](https://www.linkedin.com/pulse/avalia%25C3%25A7%25C3%25A3o-sem-vazamento-por-que-100-teste-pode-n%25C3%25A3o-em-santos-daltro-ww4je/) |
 | 20 | [Treino de um mini Transformer causal](capitulos/20-transformer-treino/) | A publicar |
 | 21 | [Da previsão à decisão na robótica](capitulos/21-previsao-a-decisao/) | A publicar |
+| 23 | [PyTorch distribuído e inferência](capitulos/23-pytorch-distribuido/) | [LinkedIn](https://www.linkedin.com/pulse/pytorch-distribu%C3%ADdo-na-pr%C3%A1tica-v%C3%A1rias-gpus-duas-e-santos-daltro-gjxqe/) |
+| 24 | [Fine-tuning e esquecimento catastrófico](capitulos/24-fine-tuning/) | A publicar |
 
 Resultados de laboratórios sintéticos e tempos de execução dependem da configuração e não são métricas de produção. O repositório não inclui bases externas nem pesos. Veja a [licença MIT](LICENSE) para o código; datasets de terceiros têm condições próprias.
